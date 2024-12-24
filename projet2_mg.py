@@ -2,19 +2,13 @@
 import os
 import streamlit as st
 from streamlit_option_menu import option_menu
-
-
 import pandas as pd
-
-
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
 
 from deep_translator import GoogleTranslator
 translator = GoogleTranslator(source='auto', target='fr')
-
-
 
 # Ajout d'un fond d'écran
 
